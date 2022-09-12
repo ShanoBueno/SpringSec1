@@ -16,7 +16,7 @@ public class DemoController {
 	@ResponseBody
 	@RequestMapping("/user")
 	public String demouser() {
-		return "hi simplilearn role user"; 
+		return "hi simplilearn role user, this is another mesage"; 
 	}
 	
 	@ResponseBody
