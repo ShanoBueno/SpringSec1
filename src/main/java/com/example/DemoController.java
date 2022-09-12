@@ -10,7 +10,7 @@ public class DemoController {
 	@ResponseBody
 	@RequestMapping("/")
 	public String demo() {
-		return "hi simplilearn users"; 
+		return "hi simplilearn users, this is another commit"; 
 	}
 	
 	@ResponseBody
